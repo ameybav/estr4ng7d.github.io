@@ -1,58 +1,36 @@
 # Site settings
-title: Amey Baviskar
-email: abaviskar@scu.edu
-url: github.com/estr4ng7d
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
-skills: "Software Developer - Machine Learning Engineer"
-meta_author: LastName FirstName
+name: Edwin E. Exemplar
+email: edwin+contactme@someemail.com
+#canonical_url: https://edwinexemplar.com
+keywords: "Software Engineer, Python, Ruby, Machine Learning, Deep Learning, Startups, Agile, Pair Programming"
+skills: "Senior Software Engineer in Seattle, WA (Fictitious)"
+baseurl:
 
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# You should replace these with your social networks, of course. :)
+social:
+  - title: linkedin
+    url: https://www.linkedin.com/in/cgroom/
+  - title: medium
+    url: https://medium.com/@cgroom
+  - title: twitter
+    url: https://twitter.com/chuck_groom
+    
 # Google webmaster tools
 google_verify:
 
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
 
-# Contact form:
-# - static : pass through formspree.io to validate email sending
-# - disqus : replace contact form by disqus thread
-# - comment the line below if you want to stick with the default PHP contact form
-contact: static
-
-# If you use disqus you need disqus shortname
-# https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: myshortname
-
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary: 2196F3
+  primary-rgb: "33, 150, 243"
+  secondary: 285172
+  secondary-dark: 29455b
+  section-tout: eaf1f1
 
-# Footer settings
-footer:
-  copyright: Amey Baviskar
-  location: Location
-  social: Around the Web
-  credits: Credits
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: http://twitter.com/ameybaviskar
-  - title: facebook
-    url:
-  - title: github
-    url: github.com/estr4ng7d
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: 750, Lincoln Street
-  - line: Santa Clara, CA 95050
-
-# Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
